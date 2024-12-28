@@ -75,5 +75,5 @@ Warning Reason:
 this warning appears when you attempt to upload a ZIP file (e.g., a plugin) to your website, and the file size exceeds the maximum upload limits configured on the server.
 
 Warning Solution: 
----------------
+-----------------
 extract the zip and copy and paste the plugin into the WordPress plugin folder.
