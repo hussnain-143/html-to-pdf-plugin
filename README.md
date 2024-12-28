@@ -76,4 +76,9 @@ this warning appears when you attempt to upload a ZIP file (e.g., a plugin) to y
 
 Warning Solution: 
 -----------------
-extract the zip and copy and paste the plugin into the WordPress plugin folder. OR edit your **php.ini** file and set the size like that _**upload_max_filesize = 150M**_
+extract the zip and copy and paste the plugin into the WordPress plugin folder. OR edit your **php.ini** file and set the size like that 
+_**upload_max_filesize = 150M
+post_max_size = 128M
+max_execution_time = 300
+max_input_time = 300
+memory_limit = 256M**_
